@@ -1,2 +1,52 @@
 ﻿body {
+    height:662px;
+    width:1024px;
+    margin:15px;
+}
+div .page-header{
+    background-color:#CFD1CF;
+    border:solid;
+    border-color:white;
+    padding:0px;
+    margin:0px;
+    height:133px;
+}
+div .page-header h1{
+    text-align:center;
+    font-family:'Montserrat', sans-serif;
+    font-weight:lighter;
+    color:#6A646E;
+}
+    div .page-header small {
+           text-align:center;
+    font-family:'Pacifico', cursive;
+    font-weight:lighter;
+    color:#6A646E;
+    }
+    footer{
+            background-color:#CFD1CF;
+    height:40px;
+    }
+    div .page-footer{
+        height:60px;
+        background-color:#DDDDDD;
+        font-size:8px;
+        color: #878A8B;
+    }
+        div .page-footer i {
+     float:right;
+        }
+ div .firstrow{
+     height:178px;
+     width:430px;
+     padding:0px;
+        }
+
+.Grid img{
+       border:solid;
+    border-color:white;
+    border-width:1px;
+column-gap:0px;
+width:256px;
+
 }
