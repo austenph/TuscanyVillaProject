@@ -1,6 +1,24 @@
 ﻿body {
-    border: 1px solid #EEEEEE;
     background-color:#EEEEEE;
+}
+/*JUMBOTRON*/
+.jumbotron{
+    margin-bottom:0px;
+    font-family:'Montserrat', sans-serif;
+}
+.jumbotron p{
+   font-family:'Pacifico', cursive;
+}
+/*NAVBAR*/
+.firstcont{
+    font-family:'Montserrat', sans-serif; 
+    padding-right:0; height:50px;
+     padding-left:0;
+}
+.navbar-default{
+    margin-bottom:0px; 
+    border:none; 
+    position:relative;
 }
 .navbar-brand{
     padding:0px;
@@ -15,7 +33,11 @@ a.navbar-brand{
     margin-right: 0 auto;
     width:auto;
 }
-
+#property{
+     background-color:#81BBDA; 
+     color:white;
+     font-family:'Montserrat', sans-serif;
+}
 /*CENTERING THE INNER NAVBAR*/
       #centered{
       display:inline-block;
@@ -24,7 +46,7 @@ a.navbar-brand{
   #myNavbar{
       text-align:center;
   }
-  /*ESTABLISHING BORDER AROUND COLUMNS*/
+  /*ESTABLISHING GRID SYSTEM STYLES*/
   .content{
       border:solid;
       border-color:#E5E0E4;
@@ -43,22 +65,11 @@ a.navbar-brand{
     font-size:12px;
     text-align:center;
   }
-  .content2{
-      border:solid;
-      border-color:#E5E0E4;
-      border-width:1px;
-  }
-  .content2 .col-lg-3.col-md-4.col-sm-12.col-xs-12{
-      padding-right:0px;
-      padding-left:0px;
-      border:solid;
-      border-color:#E5E0E4;
-      border-width:1px;
-  }
   /*ALL ROWS HAVE NO BOTTOM MARGIN*/
   .row{
       margin-bottom:0px;
   }
+  /*WELL STYLINGS*/
   .well{
     background:none;
     border:none;
@@ -101,6 +112,7 @@ text-align:left;
      padding-bottom:30px;
      padding-top:30px;
 }
+/*MAINIMG FOR FIRST ROW FIRST COLUMN*/
 #mainImg {
     background-image: url('images/mainImg1.jpeg');
     max-height:100%;
@@ -109,6 +121,7 @@ text-align:left;
     text-align:center;
      background-size: cover;
 }
+/*SECOND COLUMN FIRST ROW IMAGE*/
 #secondImg {
 background-image: url('images/Versilia.jpg');
   max-height:100%;
@@ -118,7 +131,6 @@ background-image: url('images/Versilia.jpg');
     background-size: cover;
     height:488px;
 }
-
   /*TURNING EACH GRID ITEM INTO A SQUARE*/
 .squarenone {
     background-color:white;
@@ -129,9 +141,6 @@ background-image: url('images/Versilia.jpg');
     text-align:center;
     height: 409px;
 }
-
-/*BASIC SQUARE*/
-
 .square1{
     width: 100%;
     padding-bottom: 100%;
@@ -162,14 +171,37 @@ background-image: url('images/Versilia.jpg');
     background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
     background-size: cover;
 }
+.square6 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+}
+.squareblue{
+    background-color:#6DCDBB;
+    width: 100%;
+    padding:0%;
+    margin:0 auto;
+    background-size: cover;
+    text-align:center;
+    height: 409px;
+}
+.squareblue h4{
+    color:white;
+}
 .squarefinal {
     width: 100%;
     padding-bottom: 100%;
     height: 409px;
-    background-size:contain;
+    background-size:cover;
     background-repeat:no-repeat;
     text-align:center;
     background-image: url('images/box_partners.png');
+}
+/*FOOTER STYLINGS*/
+.footcont{
+     padding-right:0; 
+     padding-left:0;
 }
    #gray{
             background-color:#CFD1CF;
