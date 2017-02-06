@@ -15,6 +15,7 @@ a.navbar-brand{
     margin-right: 0 auto;
     width:auto;
 }
+
 /*CENTERING THE INNER NAVBAR*/
       #centered{
       display:inline-block;
@@ -30,6 +31,24 @@ a.navbar-brand{
       border-width:1px;
   }
   .content .col-lg-3.col-md-4.col-sm-12.col-xs-12{
+      padding-right:0px;
+      padding-left:0px;
+      border:solid;
+      border-color:#E5E0E4;
+      border-width:1px;
+      text-align:center;    
+  }
+  p{
+         font-family:'Montserrat', sans-serif;
+    font-size:12px;
+    text-align:center;
+  }
+  .content2{
+      border:solid;
+      border-color:#E5E0E4;
+      border-width:1px;
+  }
+  .content2 .col-lg-3.col-md-4.col-sm-12.col-xs-12{
       padding-right:0px;
       padding-left:0px;
       border:solid;
@@ -108,7 +127,7 @@ background-image: url('images/Versilia.jpg');
     margin:0 auto;
     background-size: cover;
     text-align:center;
-    height: 451.5px;
+    height: 409px;
 }
 
 /*BASIC SQUARE*/
@@ -131,16 +150,22 @@ background-image: url('images/Versilia.jpg');
     background-image: url('images/3b-348x348.jpg');
     background-size: cover;
 }
-.square3 {
+.square4 {
     width: 100%;
     padding-bottom: 100%;
     background-image: url('images/42-348x348.jpg');
     background-size: cover;
 }
+.square5 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+}
 .squarefinal {
     width: 100%;
     padding-bottom: 100%;
-    height: 451.5px;
+    height: 409px;
     background-size:contain;
     background-repeat:no-repeat;
     text-align:center;
