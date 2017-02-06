@@ -94,6 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Holiday-lettings-Bozzano-Villa-Monsagrati_12.jpeg" />
+    <Content Include="images\mainImg1.jpeg" />
+    <Content Include="images\Mcdonalds-90s-logo.svg.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -121,6 +124,7 @@
     <Content Include="images\Villa-Rucellai-Toscani-2812-2-348x348.jpg" />
     <Content Include="images\Villa-Vanna-231-348x348.jpg" />
     <Content Include="index.html" />
+    <Content Include="savestuff.html" />
     <Content Include="tuscany.css" />
     <Content Include="Web.config" />
   </ItemGroup>

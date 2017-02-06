@@ -1,52 +1,200 @@
 ﻿body {
-    height:662px;
-    width:1024px;
-    margin:15px;
+    border: 1px solid #EEEEEE;
 }
-div .page-header{
-    background-color:#CFD1CF;
-    border:solid;
-    border-color:white;
-    padding:0px;
-    margin:0px;
-    height:133px;
+
+a.navbar-brand{
+    background-color:#49AD9F; 
+    color:white; 
+    font-size:14px;  
 }
-div .page-header h1{
+/*CENTERING THE INNER NAVBAR*/
+      #centered{
+      display:inline-block;
+      float:none;
+  }
+  #myNavbar{
+      text-align:center;
+  }
+  /*ESTABLISHING BORDER AROUND COLUMNS*/
+  .content{
+      border:solid;
+      border-color:#E5E0E4;
+      border-width:1px;
+  }
+  .content .col-lg-3.col-md-4.col-sm-12.col-xs-12{
+      padding-right:0px;
+      padding-left:0px;
+      border:solid;
+      border-color:#E5E0E4;
+      border-width:1px;
+  }
+  /*ALL ROWS HAVE NO BOTTOM MARGIN*/
+  .row{
+      margin-bottom:0px;
+  }
+  .well{
+    background:none;
+    border:none;
+    color:#6DD1BC;
+    font-family:'Montserrat', sans-serif;
+    font-size:26px;
     text-align:center;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+#well1style {
+    background-color:#3C4343; 
+        opacity:0.7;
+        text-align:center; 
+}
+#well2style{
+background-color:white;
+opacity:0.7;
+text-align:left;
+}
+#well1{
+    border:none;
+    color:white; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 26px; 
+    text-align: center;
+    margin-bottom: 0px;
+     background-repeat: no-repeat;
+     padding-bottom:30px;
+     padding-top:30px;
+}
+#well2{
+    border:none;
+    color:#3C4343; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 26px; 
+    text-align: center;
+    margin-bottom: 0px;
+     background-repeat: no-repeat;
+     padding-bottom:30px;
+     padding-top:30px;
+}
+#mainImg {
+    background-image: url('images/mainImg1.jpeg');
+    max-height:100%;
+    max-width:100%;
+    position:relative;
+    text-align:center;
+     background-size: cover;
+}
+#secondImg {
+background-image: url('images/Versilia.jpg');
+  max-height:100%;
+    max-width:100%;
+    position:relative;
+    text-align:center;
+    background-size: cover;
+    height:488px;
+  
+}
+
+  /*TURNING EACH GRID ITEM INTO A SQUARE*/
+.squarenone {
+    background-color:white;
+    width: 100%;
+    padding:0%;
+    margin:0 auto;
+    background-size: cover;
+    text-align:center;
+}
+
+/*BASIC SQUARE*/
+
+.square1{
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+}
+.square2 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('images/314-348x348.jpg');
+    background-size: cover;
+}
+.square3 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('images/3b-348x348.jpg');
+    background-size: cover;
+}
+.squarefinal{
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+}
+
+  /*
+nav#navvy.navbar.navbar-static-top {
+        margin:0%;
+   background-color: white;
+   border-bottom-color:#CFD1CF;
+   border-bottom-style:solid;
+   border-bottom-width:2px;
+}
+#navvy a {
     font-family:'Montserrat', sans-serif;
     font-weight:lighter;
     color:#6A646E;
 }
-    div .page-header small {
-           text-align:center;
-    font-family:'Pacifico', cursive;
-    font-weight:lighter;
-    color:#6A646E;
-    }
-    footer{
+    #navvy a#property {
+        background-color:#81BBDA;
+        color:white;
+        margin:0px;
+
+}
+#navvy a#logo {
+        background-color:#49AD9F;
+        color:white;
+        margin:0px;
+}
+button.navbar-toggle {
+    border: 1px solid #FFF6F0;
+   background-color:#81BBDA;
+   color:white;
+}
+span.icon-bar {
+    color: white;
+    border: 1px solid #FFFFFF;
+}
+      */
+   #gray{
             background-color:#CFD1CF;
     height:40px;
     }
-    div .page-footer{
+.page-footer{
         height:60px;
-        background-color:#DDDDDD;
-        font-size:8px;
-        color: #878A8B;
+        background-color:#E3DFE3;
     }
-        div .page-footer i {
-     float:right;
+.page-footer p {
+     float:left;
+             font-size:9px;
+        color: #878A8B;
         }
- div .firstrow{
-     height:178px;
-     width:430px;
-     padding:0px;
-        }
-
-.Grid img{
-       border:solid;
-    border-color:white;
-    border-width:1px;
-column-gap:0px;
-width:256px;
+/*
+.thumbnail{
+    background-color:#676869;
+    opacity:0.6;
+    border:none;
+    border-radius:0px;
 
 }
+.thumbnail h3,h5{
+    color:white;
+        text-align:center;
+    font-family:'Montserrat', sans-serif;
+}
+.arrowbutton{
+    background-color:#6DCDBB;
+    border-radius:0px;
+    text-align:left;
+}
+ .glyphicon-arrow-right{
+    color:white;
+    background-color:#6DCDBB;
+}*/
