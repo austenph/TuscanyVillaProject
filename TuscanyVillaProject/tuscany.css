@@ -1,11 +1,19 @@
 ﻿body {
     border: 1px solid #EEEEEE;
+    background-color:#EEEEEE;
 }
-
+.navbar-brand{
+    padding:0px;
+    text-align:center;
+}
 a.navbar-brand{
     background-color:#49AD9F; 
     color:white; 
     font-size:14px;  
+    padding:6px;
+    margin-left:0 auto;
+    margin-right: 0 auto;
+    width:auto;
 }
 /*CENTERING THE INNER NAVBAR*/
       #centered{
@@ -90,7 +98,6 @@ background-image: url('images/Versilia.jpg');
     text-align:center;
     background-size: cover;
     height:488px;
-  
 }
 
   /*TURNING EACH GRID ITEM INTO A SQUARE*/
@@ -101,6 +108,7 @@ background-image: url('images/Versilia.jpg');
     margin:0 auto;
     background-size: cover;
     text-align:center;
+    height: 451.5px;
 }
 
 /*BASIC SQUARE*/
@@ -123,46 +131,21 @@ background-image: url('images/Versilia.jpg');
     background-image: url('images/3b-348x348.jpg');
     background-size: cover;
 }
-.squarefinal{
+.square3 {
     width: 100%;
     padding-bottom: 100%;
+    background-image: url('images/42-348x348.jpg');
     background-size: cover;
 }
-
-  /*
-nav#navvy.navbar.navbar-static-top {
-        margin:0%;
-   background-color: white;
-   border-bottom-color:#CFD1CF;
-   border-bottom-style:solid;
-   border-bottom-width:2px;
+.squarefinal {
+    width: 100%;
+    padding-bottom: 100%;
+    height: 451.5px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    text-align:center;
+    background-image: url('images/box_partners.png');
 }
-#navvy a {
-    font-family:'Montserrat', sans-serif;
-    font-weight:lighter;
-    color:#6A646E;
-}
-    #navvy a#property {
-        background-color:#81BBDA;
-        color:white;
-        margin:0px;
-
-}
-#navvy a#logo {
-        background-color:#49AD9F;
-        color:white;
-        margin:0px;
-}
-button.navbar-toggle {
-    border: 1px solid #FFF6F0;
-   background-color:#81BBDA;
-   color:white;
-}
-span.icon-bar {
-    color: white;
-    border: 1px solid #FFFFFF;
-}
-      */
    #gray{
             background-color:#CFD1CF;
     height:40px;
@@ -176,25 +159,3 @@ span.icon-bar {
              font-size:9px;
         color: #878A8B;
         }
-/*
-.thumbnail{
-    background-color:#676869;
-    opacity:0.6;
-    border:none;
-    border-radius:0px;
-
-}
-.thumbnail h3,h5{
-    color:white;
-        text-align:center;
-    font-family:'Montserrat', sans-serif;
-}
-.arrowbutton{
-    background-color:#6DCDBB;
-    border-radius:0px;
-    text-align:left;
-}
- .glyphicon-arrow-right{
-    color:white;
-    background-color:#6DCDBB;
-}*/
